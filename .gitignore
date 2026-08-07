@@ -1,0 +1,8 @@
+# Compiled executables
+*.exe
+
+# VS Code
+.vscode/
+
+# Temporary files
+tempCodeRunnerFile.cpp

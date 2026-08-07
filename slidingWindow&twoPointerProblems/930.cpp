@@ -8,7 +8,6 @@ int atMost(vector<int>& nums, int goal){
     int counter=0;
     for(int i=0;i<nums.size();i++){
         sum+=nums[i];
-        counter+=1;
         while(sum>goal){
             sum-=nums[j];
             j++;

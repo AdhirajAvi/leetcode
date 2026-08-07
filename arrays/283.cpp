@@ -28,3 +28,7 @@ int main()
     }
     return 0;
 }
+
+
+// approach-2!!!!!!!!
+// just use sort() then reverse()

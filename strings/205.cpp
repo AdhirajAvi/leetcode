@@ -9,6 +9,7 @@ int main(){
         if(mp.find(s[i])!=mp.end()){
             if(mp[s[i]]!=t[j]){
                 chekk=false;
+                break;
             } 
         }
         else{
@@ -17,6 +18,7 @@ int main(){
         if(mp2.find(t[j])!=mp2.end()){
             if(mp2[t[j]]!=s[i]){
                 chekk=false;
+                break;
             }
         }
         else{

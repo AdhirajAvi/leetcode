@@ -37,6 +37,18 @@ Node* addTwonumbers(Node* head1, Node* head2){
             temp2 = new Node(0,NULL);
         }
 
+        // recommended way!!!!!!!!
+//         int x = 0;
+// int y = 0;
+
+// if(temp1 != NULL){
+//     x = temp1->data;
+// }
+
+// if(temp2 != NULL){
+//     y = temp2->data;
+// }
+
         int sum=0;
         sum=(temp1->data)+(temp2->data)+carry;
         int fullsum=+sum%10;
