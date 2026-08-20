@@ -12,9 +12,9 @@ void gResultpowerset(int idx, vector<int> t, vector<int> q, vector<vector<int>> 
     t.push_back(q[idx]);
     gResultpowerset(idx + 1, t, q, result);
     t.pop_back();
-    idx - 1;
-
+    
     gResultpowerset(idx + 1, t, q, result);
+    
 }
 
 vector<vector<int>> gPowerset(vector<int> &q)
